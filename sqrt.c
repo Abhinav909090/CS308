@@ -17,10 +17,11 @@ int main(int argc, char* argv[]) {
 	int input = atoi(argv[1]);
 	if(input < 0)
 	{
-		printf("negative numbers are not allowed\n");
-		return 0;
+		input = -1*input;
+		printf("Sqrt of %d is %fi\n",-1*input,sqrt(input));
+	}else{
+		printf("Sqrt of %d is %f\n",input,sqrt(input));
 	}
-	printf("Sqrt of %d is %f\n",input,sqrt(input));
 	printf("End of program.Exiting.\n");
 	return(0);
 } // end main
