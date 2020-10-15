@@ -18,10 +18,10 @@ int main(int argc, char* argv[]) {
 	if(input < 0)
 	{
 		input = -1*input;
-		printf("NEGSUPPORT: Sqrt of %d is %fi\n",-1*input,sqrt(input));
+		printf("DEBUG : Sqrt of %d is %fi\n",-1*input,sqrt(input));
 	}else{
-		printf("NEGSUPPORT: Sqrt of %d is %f\n",input,sqrt(input));
+		printf("DEBUG: Sqrt of %d is %f\n",input,sqrt(input));
 	}
-	printf("NEGSUPPORT: End of program.Exiting.\n");
+	printf("DEBUG : End of program.Exiting.\n");
 	return(0);
 } // end main
