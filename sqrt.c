@@ -22,6 +22,6 @@ int main(int argc, char* argv[]) {
 	}else{
 		printf("Sqrt of %d is %f\n",input,sqrt(input));
 	}
-	printf("End of program.Exiting.\n");
+	printf("End of program.Exiting.Changing in br_negativeCheck\n");
 	return(0);
 } // end main
